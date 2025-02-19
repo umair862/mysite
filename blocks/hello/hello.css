@@ -1,0 +1,31 @@
+.hello {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hello .table-container {
+    margin-top: 10px;
+    overflow-x: auto;
+}
+
+.hello table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.hello th, .hello td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.hello th {
+    background-color: #e0e0e0;
+}
+
+.hello tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

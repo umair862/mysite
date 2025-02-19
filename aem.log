@@ -1,0 +1,43 @@
+[INFO 2024-10-25 03:16:14.607105200 Z] [33m    ___    ________  ___                          __      __ v16.7.15[39m { category: 'cli' }
+[INFO 2024-10-25 03:16:14.612777800 Z] [33m   /   |  / ____/  |/  /  _____(_)___ ___  __  __/ /___ _/ /_____  _____[39m { category: 'cli' }
+[INFO 2024-10-25 03:16:14.613459500 Z] [33m  / /| | / __/ / /|_/ /  / ___/ / __ `__ \/ / / / / __ `/ __/ __ \/ ___/[39m { category: 'cli' }
+[INFO 2024-10-25 03:16:14.613824700 Z] [33m / ___ |/ /___/ /  / /  (__  ) / / / / / / /_/ / / /_/ / /_/ /_/ / /[39m { category: 'cli' }
+[INFO 2024-10-25 03:16:14.614089400 Z] [33m/_/  |_/_____/_/  /_/  /____/_/_/ /_/ /_/\__,_/_/\__,_/\__/\____/_/[39m { category: 'cli' }
+[INFO 2024-10-25 03:16:14.614272500 Z]  { category: 'cli' }
+[DEBUG 2024-10-25 03:16:16.181450500 Z] Launching AEM dev server... { category: 'hlx' }
+[INFO 2024-10-25 03:16:16.186661800 Z] Starting AEM dev server v16.7.15 { category: 'hlx' }
+[INFO 2024-10-25 03:16:16.191824100 Z] Local AEM dev server up and running: https://localhost:3000/ { category: 'hlx' }
+[INFO 2024-10-25 03:16:16.192373800 Z] Enabled reverse proxy to https://main--mysite--umair862.aem.page { category: 'hlx' }
+[DEBUG 2024-10-25 03:16:16.197379100 Z] detected local 404.html { category: 'hlx' }
+[INFO 2024-10-25 03:16:16.251633800 Z] opening default browser: https://localhost:3000/ { category: 'cli' }
+[DEBUG 2024-10-25 03:16:17.483020000 Z] new connection from 127.0.0.1:61261 { category: 'hlx' }
+[DEBUG 2024-10-25 03:16:17.491095300 Z] new connection from 127.0.0.1:61262 { category: 'hlx' }
+[DEBUG 2024-10-25 03:16:17.498074200 Z] closed connection from 127.0.0.1:61261 { category: 'hlx' }
+[DEBUG 2024-10-25 03:16:17.499559500 Z] closed connection from 127.0.0.1:61262 { category: 'hlx' }
+[DEBUG 2024-10-25 03:16:17.748200500 Z] new connection from 127.0.0.1:61264 { category: 'hlx' }
+[DEBUG 2024-10-25 03:16:17.753797600 Z] closed connection from 127.0.0.1:61264 { category: 'hlx' }
+[DEBUG 2024-10-25 03:16:17.810115400 Z] new connection from 127.0.0.1:61266 { category: 'hlx' }
+[DEBUG 2024-10-25 03:16:17.820819800 Z] unable to deliver local file /index.html - Error: ENOENT: no such file or directory, stat 'C:\umairData\code\mysite\index.html' { category: 'hlx' }
+[DEBUG 2024-10-25 03:16:17.821946200 Z] [0] Proxy GET request to https://main--mysite--umair862.aem.page/ { category: 'hlx' }
+[DEBUG 2024-10-25 03:16:18.057087800 Z] new connection from 127.0.0.1:61271 { category: 'hlx' }
+[ERROR 2024-10-25 03:16:18.123737200 Z] failed to proxy AEM request /index.html: unable to get local issuer certificate { category: 'hlx' }
+[DEBUG 2024-10-25 03:16:23.138294400 Z] closed connection from 127.0.0.1:61266 { category: 'hlx' }
+[DEBUG 2024-10-25 03:16:57.035152500 Z] unable to deliver local file /index.html - Error: ENOENT: no such file or directory, stat 'C:\umairData\code\mysite\index.html' { category: 'hlx' }
+[DEBUG 2024-10-25 03:16:57.035815500 Z] [1] Proxy GET request to https://main--mysite--umair862.aem.page/index.html { category: 'hlx' }
+[DEBUG 2024-10-25 03:16:57.347945700 Z] new connection from 127.0.0.1:61344 { category: 'hlx' }
+[DEBUG 2024-10-25 03:16:57.349742400 Z] closed connection from 127.0.0.1:61344 { category: 'hlx' }
+[ERROR 2024-10-25 03:16:57.691983800 Z] failed to proxy AEM request /index.html: unable to get local issuer certificate { category: 'hlx' }
+[DEBUG 2024-10-25 03:17:02.701630900 Z] closed connection from 127.0.0.1:61271 { category: 'hlx' }
+[DEBUG 2024-10-25 03:20:25.945466600 Z] new connection from 127.0.0.1:61867 { category: 'hlx' }
+[DEBUG 2024-10-25 03:20:25.951622600 Z] closed connection from 127.0.0.1:61867 { category: 'hlx' }
+[DEBUG 2024-10-25 03:20:25.952740400 Z] new connection from 127.0.0.1:61868 { category: 'hlx' }
+[DEBUG 2024-10-25 03:20:25.958162800 Z] closed connection from 127.0.0.1:61868 { category: 'hlx' }
+[DEBUG 2024-10-25 03:20:26.212610500 Z] new connection from 127.0.0.1:61871 { category: 'hlx' }
+[DEBUG 2024-10-25 03:20:26.218722400 Z] closed connection from 127.0.0.1:61871 { category: 'hlx' }
+[DEBUG 2024-10-25 03:20:26.274555600 Z] new connection from 127.0.0.1:61873 { category: 'hlx' }
+[DEBUG 2024-10-25 03:20:26.281577400 Z] unable to deliver local file /index.html - Error: ENOENT: no such file or directory, stat 'C:\umairData\code\mysite\index.html' { category: 'hlx' }
+[DEBUG 2024-10-25 03:20:26.281930600 Z] [2] Proxy GET request to https://main--mysite--umair862.aem.page/ { category: 'hlx' }
+[DEBUG 2024-10-25 03:20:26.521328500 Z] new connection from 127.0.0.1:61881 { category: 'hlx' }
+[ERROR 2024-10-25 03:20:26.969070500 Z] failed to proxy AEM request /index.html: unable to get local issuer certificate { category: 'hlx' }
+[DEBUG 2024-10-25 03:20:31.981406700 Z] closed connection from 127.0.0.1:61873 { category: 'hlx' }
+[DEBUG 2024-10-25 03:21:46.277611100 Z] closed connection from 127.0.0.1:61881 { category: 'hlx' }
